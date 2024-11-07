@@ -31,15 +31,10 @@ public class MainActivity extends AppCompatActivity {
                 new Datos("Portugal", "Lisboa")
         };
 
-        // Limitamos a mostrar entre 4 y 5 elementos de la lista
-        final int elementosAMostrar = 5;  // Aquí puedes cambiar a 4 si prefieres 4 elementos
-
-        // Crear un array con los primeros 4 o 5 elementos
-        Datos[] datosLimitados = new Datos[elementosAMostrar];
-        System.arraycopy(datos, 0, datosLimitados, 0, elementosAMostrar);
+        
 
         // Configurar el adaptador
-        Adaptador adaptador = new Adaptador(this, datosLimitados);
+        Adaptador adaptador = new Adaptador(this, datos);
         listado.setAdapter(adaptador);
 
         listado.setOnItemClickListener(new AdapterView.OnItemClickListener() {

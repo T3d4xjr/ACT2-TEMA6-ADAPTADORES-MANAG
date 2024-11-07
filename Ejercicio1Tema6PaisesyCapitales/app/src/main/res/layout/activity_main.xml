@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#DCDCE6"
+    android:background="#F9FAFB"
     tools:context=".MainActivity">
 
     <!-- Cabecera -->
@@ -22,8 +22,7 @@
         android:gravity="center"
         android:padding="16dp"
         android:background="#2C3E50"
-        android:elevation="4dp"
-        />
+        android:elevation="4dp"/>
 
     <!-- Subcabecera -->
     <TextView
@@ -37,17 +36,16 @@
         android:gravity="center"
         android:padding="10dp"
         android:layout_marginBottom="8dp"
-        android:background="#BDC3C7"
-        android:layout_margin="5dp"/>
+        android:background="#BDC3C7"/>
 
-    <!-- Lista de Paises y Capitales -->
+    <!-- ListView para la lista de Paises y Capitales -->
     <ListView
         android:id="@+id/listado"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:background="#FFFFFF"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="18dp"
         android:divider="#D1D5DB"
         android:dividerHeight="1dp"
-        android:padding="16dp" />
-
+        android:background="#FFFFFF"/>
 </LinearLayout>
