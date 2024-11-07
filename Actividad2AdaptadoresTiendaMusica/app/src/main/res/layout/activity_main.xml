@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#a9b4c2">
+
+    <!-- Título de la actividad con mejor contraste -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Music Shop"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:background="#7d98a1"
+        android:textAlignment="center"/>
+
+    <!-- ListView para mostrar los instrumentos -->
+    <ListView
+        android:id="@+id/listView_instruments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#cccccc"
+        android:dividerHeight="1dp"
+        android:paddingBottom="8dp"
+        android:background="#eef1ef"
+        />
+</LinearLayout>
