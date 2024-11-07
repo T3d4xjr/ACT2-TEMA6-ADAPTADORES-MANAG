@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F9FAFB"
+    tools:context=".MainActivity">
+
+    <!-- Cabecera -->
+<TextView
+    android:id="@+id/textoCabecera"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Programación Multimedia"
+    android:textColor="#FFFFFF"
+    android:textStyle="bold"
+    android:textSize="22sp"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#2C3E50"
+    android:elevation="4dp"/>
+
+    <!-- Subcabecera -->
+<TextView
+    android:id="@+id/textoSubCabecera"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Países y Capitales"
+    android:textColor="#333333"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    android:gravity="center"
+    android:padding="10dp"
+
+    android:layout_marginBottom="8dp"
+    android:background="#BDC3C7"/>
+
+    <!-- Lista de Paises y Capitales -->
+<ListView
+    android:id="@+id/listado"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:padding="16dp"
+    android:divider="#D1D5DB"
+    android:dividerHeight="1dp"
+    android:background="#FFFFFF"/>
+
+    </LinearLayout>
