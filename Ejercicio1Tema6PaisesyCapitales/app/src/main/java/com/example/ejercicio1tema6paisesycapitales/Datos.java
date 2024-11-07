@@ -1,6 +1,5 @@
 package com.example.ejercicio1tema6paisesycapitales;
 
-// Clase Datos para almacenar el país y la capital.
 public class Datos {
     private String texto1; // Nombre del país
     private String texto2; // Nombre de la capital
@@ -18,4 +17,3 @@ public class Datos {
         return texto2;
     }
 }
-
